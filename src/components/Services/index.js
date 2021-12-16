@@ -1,7 +1,7 @@
 import React from "react";
-import Icon1 from "../../images/svg-1.svg"
-import Icon2 from "../../images/svg-2.svg"
-import Icon3 from "../../images/svg-3.svg"
+import Manu1 from "../../images/Manu1.jpeg";
+import Manu2 from "../../images/Manu2.jpeg";
+import Manu3 from "../../images/Manu3.jpeg";
 import {
   ServicesContainer,
   ServicesH1,
@@ -14,23 +14,23 @@ import {
 
 const Services = () => {
   return (
-    <ServicesContainer id="services">
-      <ServicesH1>Our Services</ServicesH1>
+    <ServicesContainer id="fotos">
+      <ServicesH1>Algumas Fotos da Manu</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>bla bla bla bla</ServicesH2>
-          <ServicesP>bla blaa bla</ServicesP>
+          <ServicesIcon src={Manu1} />
+          <ServicesH2>Carinha de Pedinte</ServicesH2>
+          {/* <ServicesP>bla blaa bla</ServicesP> */}
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon2} />
-          <ServicesH2> bla bla bla bla</ServicesH2>
-          <ServicesP>bla blaa bla</ServicesP>
+          <ServicesIcon src={Manu2} />
+          <ServicesH2>Carinha de Perereca</ServicesH2>
+          {/* <ServicesP>bla blaa bla</ServicesP> */}
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>bla bla bla bla</ServicesH2>
-          <ServicesP>bla blaa bla</ServicesP>
+          <ServicesIcon src={Manu3} />
+          <ServicesH2>Carinha de Idiota</ServicesH2>
+          {/* <ServicesP>bla blaa bla</ServicesP> */}
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

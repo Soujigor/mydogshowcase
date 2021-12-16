@@ -15,22 +15,22 @@ export const homeObjOne = {
   darkText: false,
 };
 
-export const homeObjTwo = {
-  id: "fotos",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "Ela não anda, ela desfila!",
-  headline: "Foto? Que foto?",
-  description: "Apesar de não gostar muito de tirar fotos, ela sabe fazer boas poses.",
-  buttonLabel: "Veja Mais",
-  imgStart: true,
-  img: require("../../images/svg-2.svg").default,
-  alt: "alt2",
-  dark: false,
-  primary: false,
-  darkText: true,
-};
+// export const homeObjTwo = {
+//   id: "fotos",
+//   lightBg: true,
+//   lightText: false,
+//   lightTextDesc: false,
+//   topLine: "Ela não anda, ela desfila!",
+//   headline: "Foto? Que foto?",
+//   description: "Apesar de não gostar muito de tirar fotos, ela sabe fazer boas poses.",
+//   buttonLabel: "Veja Mais",
+//   imgStart: true,
+//   img: require("../../images/svg-2.svg").default,
+//   alt: "alt2",
+//   dark: false,
+//   primary: false,
+//   darkText: true,
+// };
 
 export const homeObjThree = {
   id: "depoimentos",

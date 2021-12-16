@@ -21,18 +21,18 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="sobre" onClick={toggle}>
             Sobre
           </SidebarLink>
-          <SidebarLink to="projetos" onClick={toggle}>
-            Projetos
+          <SidebarLink to="fotos" onClick={toggle}>
+            Fotos
           </SidebarLink>
-          <SidebarLink to="equipe" onClick={toggle}>
-            Equipe
+          <SidebarLink to="depoimentos" onClick={toggle}>
+            Depoimentos
           </SidebarLink>
-          <SidebarLink to="contato" onClick={toggle}>
-            Contato
+          <SidebarLink to="tutores" onClick={toggle}>
+            Tutores
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/budget">Orçamento</SidebarRoute>
+          <SidebarRoute to="/signIn">Cadastre-se</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
