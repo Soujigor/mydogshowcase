@@ -26,11 +26,25 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Manu Experience</HeroH1>
-        <HeroP>Cadastre-se para receber fotos, vídeos e passes para acarinhar a cachorra mais perereca do Rio de Janeiro</HeroP>
+        <HeroP>
+          Cadastre-se para receber fotos, vídeos e passes para acarinhar a
+          cachorra mais perereca do Rio de Janeiro
+        </HeroP>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-            Comece Agora{hover ? <ArrowForward /> : <ArrowRight />
-            }
+          <Button
+            to="sobre"
+            // onClick={toggleHome}
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            primary="true"
+            dark="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            Comece Agora{hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
