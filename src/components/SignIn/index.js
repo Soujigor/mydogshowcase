@@ -26,7 +26,7 @@ const SignIn = () => {
               <FormLabel htmlFor="for">Senha</FormLabel>
               <FormInput type="password" required></FormInput>
               <FormButton type="submit">Continue</FormButton>
-              <Text>Bla Bla</Text>
+              <Text>Obrigado pela preferência!</Text>
             </Form>
           </FormContent>
         </FormWrap>

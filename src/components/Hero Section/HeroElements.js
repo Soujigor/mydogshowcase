@@ -60,7 +60,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  color: yellow;
+  color: peru;
   font-size: 48px;
   text-align: center;
 

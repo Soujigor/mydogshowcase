@@ -28,12 +28,11 @@ const HeroSection = () => {
         <HeroH1>Manu Experience</HeroH1>
         <HeroP>
           Cadastre-se para receber fotos, vídeos e passes para acarinhar a
-          cachorra mais perereca do Rio de Janeiro
+          cachorra caramelo mais safada do Rio de Janeiro
         </HeroP>
         <HeroBtnWrapper>
           <Button
             to="sobre"
-            // onClick={toggleHome}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"

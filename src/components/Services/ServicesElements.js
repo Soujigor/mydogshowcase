@@ -37,7 +37,7 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled.div`
-  background: #01bf71;
+  background: peru;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
